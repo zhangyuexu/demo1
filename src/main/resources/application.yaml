@@ -1,0 +1,21 @@
+
+server:
+  port: 8899
+
+  servlet:
+    context-path: /project1
+
+spring:
+  devtools:
+    restart:
+      enabled: true
+
+  thymeleaf:
+    cache: false
+    encoding: UTF-8
+
+  profiles:
+    active: myapplication2.yaml
+
+  banner:
+    location: banner.txt
